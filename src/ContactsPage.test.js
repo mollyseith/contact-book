@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import ContactsPage from './components/ContactsPage';
 
 import { shallow } from 'enzyme';
 
 it('renders without crashing', () => {
-  shallow(<App />);
+  shallow(<ContactsPage />);
 });
